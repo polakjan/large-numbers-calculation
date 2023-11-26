@@ -1,0 +1,46 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+form {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"] {
+    font-size: 1.25em;
+    padding: 0.5em;
+    margin: 0.5em;
+    text-align: right;
+}
+
+.operators button {
+    font-size: 2em;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.equals {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.result {
+    font-size: 1.5em;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.log {
+    margin-left: auto;
+    flex: 3;
+    padding: 1em;
+    border-left: 1px solid black;
+}
